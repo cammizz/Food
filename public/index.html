@@ -9,6 +9,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
     <title>FOOD</title>
+    <link rel="icon" type="image/x-icon" href="/src/assets/burger.svg">
 </head>
 <body>
     <header>
@@ -27,13 +28,8 @@
                 </li>
             </ul>
 
-            <button class="btn-default">
-                Peça aqui
-            </button>
-
             <button id="mobile_btn">
                 <i class="fa-solid fa-bars">
-
                 </i>
             </button>
         </nav>
@@ -50,9 +46,6 @@
                     <a href="#testimonials">Avaliações</a>
                 </li>
             </ul>
-            <button class="btn-default mobile-menu-btn">
-                Peça aqui
-            </button>
         </div>
     </header>
 
@@ -66,12 +59,11 @@
                 </h1>
 
                 <p class="description">
-                    Lorem ipsum dolor sit amnet, consectetur
-                    adipiscing elit ut aliquam, purus sit amet
+                    Descubra pratos deliciosos, preparados com ingredientes frescos e muito carinho.
                 </p>
 
                 <div id="cta_buttons">
-                    <a href="#" class="btn-default">
+                    <a href="#menu" class="btn-default">
                         Ver cardápio
                     </a>
 
@@ -84,15 +76,15 @@
                 </div>
 
                 <div class="social-media-buttons">
-                    <a href="">
+                    <a href="https://wa.me/5531986391987" target="_blank">
                         <i class="fa-brands fa-whatsapp"></i>
                     </a>
 
-                    <a href="">
+                    <a href="https://instagram.com/pagina_food" target="_blank">
                         <i class="fa-brands fa-instagram"></i>
                     </a>
 
-                    <a href="">
+                    <a href="https://facebook.com/pagina_food" target="_blank">
                         <i class="fa-brands fa-facebook"></i>
                     </a>
                 </div>
@@ -116,11 +108,11 @@
                     <img src="/src/assets/dish.png" class="dish-image" alt="">
 
                     <h3 class="dish-title">
-                        Lorem Ipsum
+                        Poke Bowl de Camarão
                     </h3>
 
                     <span class="dish-description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Uma combinação perfeita de camarões empanados, kani, tomate cereja, cebola roxa e gergelim, acompanhados de um molho especial.
                     </span>
 
                     <div class="dish-rate">
@@ -134,9 +126,6 @@
 
                     <div class="dish-price">
                         <h4>R$34,00</h4>
-                        <button class="btn-default">
-                            <i class="fa-solid fa-basket-shopping"></i>
-                        </button>
                     </div>
                 </div>
 
@@ -148,11 +137,11 @@
                     <img src="/src/assets/dish2.png" class="dish-image" alt="">
 
                     <h3 class="dish-title">
-                        Lorem Ipsum
+                        Panini Tostado
                     </h3>
 
                     <span class="dish-description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Sanduíche prensado e crocante na chapa, recheado com queijo derretido, frango desfiado e vegetais frescos.
                     </span>
 
                     <div class="dish-rate">
@@ -166,9 +155,6 @@
 
                     <div class="dish-price">
                         <h4>R$20,00</h4>
-                        <button class="btn-default">
-                            <i class="fa-solid fa-basket-shopping"></i>
-                        </button>
                     </div>
                 </div>
 
@@ -180,11 +166,11 @@
                     <img src="/src/assets/dish3.png" class="dish-image" alt="">
 
                     <h3 class="dish-title">
-                        Lorem Ipsum
+                        Smoothie Bowl Tropical
                     </h3>
 
                     <span class="dish-description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Creme refrescante de frutas finalizado com kiwis fatiados, rodelas de morango, lascas de coco e sementes de girassol.
                     </span>
 
                     <div class="dish-rate">
@@ -198,9 +184,6 @@
 
                     <div class="dish-price">
                         <h4>R$25,00</h4>
-                        <button class="btn-default">
-                            <i class="fa-solid fa-basket-shopping"></i>
-                        </button>
                     </div>
                 </div>
 
@@ -212,11 +195,11 @@
                     <img src="/src/assets/dish4.png" class="dish-image" alt="">
 
                     <h3 class="dish-title">
-                        Lorem Ipsum
+                        Yakisoba de Camarão
                     </h3>
 
                     <span class="dish-description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Macarrão oriental salteado com suculentos camarões grelhados, brócolis, pimentão, tomate cereja e um toque de cebolinha fresca.
                     </span>
 
                     <div class="dish-rate">
@@ -230,14 +213,53 @@
 
                     <div class="dish-price">
                         <h4>R$25,00</h4>
-                        <button class="btn-default">
-                            <i class="fa-solid fa-basket-shopping"></i>
-                        </button>
                     </div>
                 </div>
 
             </div>
         </section>
+
+        <section id="special-drinks">
+        
+        <div style="text-align: center; display: flex; flex-direction: column; gap: 5px;">
+            <h2 class="section-subtitle">Nossas bebidas especiais</h2>
+            <h3 class="section-title"> Por apenas R$ 15,00</h3>
+        </div>
+
+        <div class="drinks-slider">
+            <div class="drink-item" style="--bg-color: #ffd6d6;">
+                <div class="dish-heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+                <div class="drink-bg-text">MORANGO</div>
+                <img src="/src/assets/Morango-refrigerante.png" class="drink-can" alt="Bebida de Morango">
+                <img src="/src/assets/Morango-refrigerante-foregroundBlur.png" class="drink-fruit" alt="Morangos flutuando">
+            </div>
+            
+            <div class="drink-item" style="--bg-color: #d6f2d6;">
+                <div class="dish-heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+                <div class="drink-bg-text">ABACATE</div>
+                <img src="/src/assets/Abacate-refrigerante.png" class="drink-can" alt="Bebida de Abacate">
+                <img src="/src/assets/Abacate-refrigerante-foregroundBlur.png" class="drink-fruit" alt="Abacates flutuando">
+            </div>
+
+            <div class="drink-item" style="--bg-color: #ffead6;">
+                <div class="dish-heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+                <div class="drink-bg-text">LARANJA</div>
+                <img src="/src/assets/Laranja-refrigerante.png" class="drink-can" alt="Bebida de Laranja">
+                <img src="/src/assets/Laranja-refrigerante-foregroundBlur.png" class="drink-fruit" alt="Laranjas flutuando">
+            </div>
+
+            <div class="slider-controls">
+                <button id="prev_drink"><i class="fa-solid fa-chevron-left"></i></button>
+                <button id="next_drink"><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
 
         <section id="testimonials">
             <img src="/src/assets/chef.png" id="testimonial_chef" alt="">
@@ -252,7 +274,7 @@
 
                         <div class="feedback-content">
                             <p>
-                                Fulana de tal
+                                Mariana Silva
                                 <span>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
@@ -263,17 +285,17 @@
                             </p>
 
                             <p>
-                                "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat voluptatibus cumque dolor ea est quae allos necessitatibus"
+                                "Comida maravilhosa e entrega rápida! O hambúrguer artesanal é simplesmente o melhor que já comi. Ganharam uma cliente fiel!"
                             </p>
                         </div>
                     </div>
 
                     <div class="feedback">
-                        <img src="/src/assets/avatar.png" class="feedback-avatar" alt="">
+                        <img src="/src/assets/avatar2.png" class="feedback-avatar" alt="">
 
                         <div class="feedback-content">
                             <p>
-                                Fulana de tal
+                                João Pedro
                                 <span>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
@@ -284,7 +306,7 @@
                             </p>
 
                             <p>
-                                "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat voluptatibus cumque dolor ea est quae allos necessitatibus"
+                                "Atendimento excelente e os pratos são muito bem servidos. A pizza marguerita estava com a massa perfeita, muito saborosa."
                             </p>
                         </div>
                     </div>
@@ -306,19 +328,18 @@
             </span>
 
             <div class="social-media-buttons">
-                    <a href="">
+                    <a href="https://wa.me/5531986391987" target="_blank">
                         <i class="fa-brands fa-whatsapp"></i>
                     </a>
 
-                    <a href="">
+                    <a href="https://instagram.com/pagina_food" target="_blank">
                         <i class="fa-brands fa-instagram"></i>
                     </a>
 
-                    <a href="">
+                    <a href="https://facebook.com/pagina_food" target="_blank">
                         <i class="fa-brands fa-facebook"></i>
                     </a>
             </div>
-
         </div>
     </footer>
     <script src="/src/script.js"></script>

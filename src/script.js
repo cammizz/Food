@@ -57,4 +57,39 @@ $(document).ready(function() {
         duration: 2000,
         distance: '20%'
     });
+
+    ScrollReveal().reveal('#special-drinks', {
+        origin: 'bottom',
+        duration: 2000,
+        distance: '20%',
+        beforeReveal: function () {
+            $('.drink-item').eq(0).addClass('active');
+        }
+    });
+
+    $('.dish-heart').on('click', function () {
+        $(this).find('i').toggleClass('active-heart');
+    });
+
+    // --- LÓGICA DO SLIDER DE BEBIDAS 3D ---
+    const drinkItems = $('.drink-item');
+    let currentDrink = 0;
+
+    $('#next_drink').on('click', function() {
+        drinkItems.eq(currentDrink).removeClass('active'); 
+        currentDrink++; 
+        if (currentDrink >= drinkItems.length) {
+            currentDrink = 0; 
+        }
+        drinkItems.eq(currentDrink).addClass('active'); 
+    });
+
+    $('#prev_drink').on('click', function() {
+        drinkItems.eq(currentDrink).removeClass('active');
+        currentDrink--; 
+        if (currentDrink < 0) {
+            currentDrink = drinkItems.length - 1; 
+        }
+        drinkItems.eq(currentDrink).addClass('active');
+    });
 });
