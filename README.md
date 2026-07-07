@@ -22,3 +22,6 @@ Este projeto foi construído utilizando as seguintes tecnologias:
 * **Navegação Inteligente:** Menu fixo que detecta a seção atual e muda de estado visualmente durante o scroll.
 * **Menu Mobile:** Menu estilo "hambúrguer" totalmente funcional para telas menores.
 * **Links de Contato:** Botões interativos que redirecionam para WhatsApp e redes sociais.
+
+## 🛠️ Como visualizar o projeto
+O projeto já se encontra hospedado! Basta acessar o link a seguir: https://foodwebsitepage.netlify.app/
